@@ -1,0 +1,33 @@
+{
+  "name": "@appworks/eslint-plugin-best-practices",
+  "version": "0.2.8",
+  "description": "AppWorks best practices eslint plugin.",
+  "files": [
+    "docs/",
+    "src/"
+  ],
+  "keywords": [
+    "appworks",
+    "best practices",
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "main": "src/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@appworks/spec": "^1.0.0",
+    "@mdn/browser-compat-data": "^2.0.3",
+    "fs-extra": "^9.0.1",
+    "glob": "^7.1.6",
+    "line-column": "^1.0.2",
+    "path-to-regexp": "^6.1.0",
+    "require-all": "^3.0.0",
+    "semver": "^7.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0"
+  }
+}
